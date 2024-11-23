@@ -33,7 +33,7 @@ class _CustomListViewItemsState extends State<CustomListViewItems> {
       itemName: "My Investments",
     ),
   ];
-  int activeIndex = -1;
+  int activeIndex = 0;
 
   @override
   Widget build(BuildContext context) {
