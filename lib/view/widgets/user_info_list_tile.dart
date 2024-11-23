@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:responsive_and_adaptive_dashboard/models/user_info.dart';
-import 'package:responsive_and_adaptive_dashboard/utils/app_colors.dart';
+import 'package:responsive_and_adaptive_dashboard/utils/app_styles.dart';
 
 class UserInfoListTile extends StatelessWidget {
   const UserInfoListTile({super.key, required this.userInfoModel});
@@ -9,11 +9,17 @@ class UserInfoListTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: AppColors.veryLightGray,
+      color: const Color(0xffFAFAFA),
+      elevation: 0,
       child: ListTile(
+        // contentPadding: EdgeInsets.zero,
         leading: SvgPicture.asset(userInfoModel.image),
-        title: Text(userInfoModel.title),
-        subtitle: Text(userInfoModel.subtitle),
+        title: Text(userInfoModel.title,
+            style: AppStyles.styleSemiBold16(context)),
+        subtitle: Text(
+          userInfoModel.subtitle,
+          style: AppStyles.styleRegular12(context),
+        ),
       ),
     );
   }

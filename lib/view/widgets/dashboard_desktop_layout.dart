@@ -1,20 +1,33 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_and_adaptive_dashboard/models/user_info.dart';
-import 'package:responsive_and_adaptive_dashboard/utils/app_images.dart';
-import 'package:responsive_and_adaptive_dashboard/view/widgets/user_info_list_tile.dart';
+import 'package:responsive_and_adaptive_dashboard/view/widgets/all_expenses.dart';
+import 'package:responsive_and_adaptive_dashboard/view/widgets/custom_drawer.dart';
 
 class DashboardDesktopLayout extends StatelessWidget {
   const DashboardDesktopLayout({super.key});
 
   @override
   Widget build(BuildContext context) {
-    const UserInfoModel userInfoModel = UserInfoModel(
-        image: Assets.imagesLekan,
-        subtitle: "demo@gmail.com",
-        title: "Lekan Okeowo");
-    return Row(
+    return const Row(
       children: [
-        Expanded(child: UserInfoListTile(userInfoModel: userInfoModel))
+        Expanded(child: CustomDrawer()),
+        SizedBox(width: 32),
+        Expanded(
+            flex: 2,
+            child: Column(
+              children: [
+                Expanded(child: AllExpenses()),
+              ],
+            )),
+        SizedBox(width: 32),
+        // Expanded(
+        //     flex: 1,
+        //     child: Column(
+        //       children: [
+        //         Expanded(child: AllExpenses()),
+        //         SizedBox(height: 32),
+        //         Expanded(flex: 2, child: AllExpenses())
+        //       ],
+        //     )),
       ],
     );
   }
