@@ -10,6 +10,7 @@ class AllExpenses extends StatelessWidget {
   Widget build(BuildContext context) {
     return const CustomContainerBackground(
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           AllExpensesHeader(),
           SizedBox(height: 16),

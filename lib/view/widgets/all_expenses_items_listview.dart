@@ -28,29 +28,30 @@ class _AllExpensesItemsListViewState extends State<AllExpensesItemsListView> {
         date: "April 2022",
         price: "\$20,129"),
   ];
-
   int isActive = 0;
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.start,
       children: items.asMap().entries.map(
         (e) {
           return Expanded(
-              child: GestureDetector(
-            onTap: () {
-              if (isActive != e.key) {
-                setState(() {});
-                isActive = e.key;
-              }
-            },
-            child: Padding(
-              padding: e.key != items.length - 1
-                  ? const EdgeInsetsDirectional.only(end: 12)
-                  : EdgeInsets.zero,
-              child: AllExpensesItems(
-                  itemsModel: e.value, isActive: isActive == e.key),
+            child: GestureDetector(
+              onTap: () {
+                if (isActive != e.key) {
+                  setState(() {});
+                  isActive = e.key;
+                }
+              },
+              child: Padding(
+                padding: e.key != items.length - 1
+                    ? const EdgeInsetsDirectional.only(end: 12)
+                    : EdgeInsets.zero,
+                child: AllExpensesItems(
+                    itemsModel: e.value, isActive: isActive == e.key),
+              ),
             ),
-          ));
+          );
         },
       ).toList(),
     );
