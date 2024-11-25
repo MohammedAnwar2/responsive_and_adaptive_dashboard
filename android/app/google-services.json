@@ -1,51 +1,13 @@
 {
   "project_info": {
-    "project_number": "435235654318",
-    "project_id": "new-app-note",
-    "storage_bucket": "new-app-note.appspot.com"
+    "project_number": "345636954617",
+    "project_id": "responsive-and-adaptive",
+    "storage_bucket": "responsive-and-adaptive.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:435235654318:android:108ad6b7fffe6a9eeefb3f",
-        "android_client_info": {
-          "package_name": "com.example.flutter_application_1"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyD7bwYtfP7XcoUbKwHdkl_YOTciSBF4kbs"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:435235654318:android:4a84380d37a229e3eefb3f",
-        "android_client_info": {
-          "package_name": "com.example.healthc_enter"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyD7bwYtfP7XcoUbKwHdkl_YOTciSBF4kbs"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:435235654318:android:c256c121f0e1d32ceefb3f",
+        "mobilesdk_app_id": "1:345636954617:android:9a7cc376826fbd3bde1d28",
         "android_client_info": {
           "package_name": "com.example.responsive_and_adaptive_dashboard"
         }
@@ -53,64 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD7bwYtfP7XcoUbKwHdkl_YOTciSBF4kbs"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:435235654318:android:9f6ef23aebbdf9eeeefb3f",
-        "android_client_info": {
-          "package_name": "com.mothers_orphan.mothers_orphan"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyD7bwYtfP7XcoUbKwHdkl_YOTciSBF4kbs"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:435235654318:android:9470295d28480da5eefb3f",
-        "android_client_info": {
-          "package_name": "com.practice.prac"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyD7bwYtfP7XcoUbKwHdkl_YOTciSBF4kbs"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:435235654318:android:e6e847d7cc7f297aeefb3f",
-        "android_client_info": {
-          "package_name": "com.user_app.noor"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyD7bwYtfP7XcoUbKwHdkl_YOTciSBF4kbs"
+          "current_key": "AIzaSyDeHQgHgjLRR8Jux16aZrFMVePxJicog8o"
         }
       ],
       "services": {

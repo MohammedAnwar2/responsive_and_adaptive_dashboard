@@ -41,47 +41,47 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAp7xePfeZBzvzvOhsMTtjRsdsL45lJOcA',
-    appId: '1:435235654318:web:82764932b098a9e8eefb3f',
-    messagingSenderId: '435235654318',
-    projectId: 'new-app-note',
-    authDomain: 'new-app-note.firebaseapp.com',
-    storageBucket: 'new-app-note.appspot.com',
+    apiKey: 'AIzaSyBvAOBqIYdq2lW9fNvaqKTxn3JJ1cSEc6E',
+    appId: '1:345636954617:web:7c46ac745211dbd9de1d28',
+    messagingSenderId: '345636954617',
+    projectId: 'responsive-and-adaptive',
+    authDomain: 'responsive-and-adaptive.firebaseapp.com',
+    storageBucket: 'responsive-and-adaptive.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD7bwYtfP7XcoUbKwHdkl_YOTciSBF4kbs',
-    appId: '1:435235654318:android:c256c121f0e1d32ceefb3f',
-    messagingSenderId: '435235654318',
-    projectId: 'new-app-note',
-    storageBucket: 'new-app-note.appspot.com',
+    apiKey: 'AIzaSyDeHQgHgjLRR8Jux16aZrFMVePxJicog8o',
+    appId: '1:345636954617:android:9a7cc376826fbd3bde1d28',
+    messagingSenderId: '345636954617',
+    projectId: 'responsive-and-adaptive',
+    storageBucket: 'responsive-and-adaptive.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDXhJEizFAl1mTYuYgL2b-9v19rJZTGEV0',
-    appId: '1:435235654318:ios:f397f7b9add05ba5eefb3f',
-    messagingSenderId: '435235654318',
-    projectId: 'new-app-note',
-    storageBucket: 'new-app-note.appspot.com',
+    apiKey: 'AIzaSyDwCjIBfTpvmA5CIBfEC7tlRWeK0vyGBms',
+    appId: '1:345636954617:ios:dcb3c3c26a7f9a29de1d28',
+    messagingSenderId: '345636954617',
+    projectId: 'responsive-and-adaptive',
+    storageBucket: 'responsive-and-adaptive.firebasestorage.app',
     iosBundleId: 'com.example.responsiveAndAdaptiveDashboard',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDXhJEizFAl1mTYuYgL2b-9v19rJZTGEV0',
-    appId: '1:435235654318:ios:f397f7b9add05ba5eefb3f',
-    messagingSenderId: '435235654318',
-    projectId: 'new-app-note',
-    storageBucket: 'new-app-note.appspot.com',
+    apiKey: 'AIzaSyDwCjIBfTpvmA5CIBfEC7tlRWeK0vyGBms',
+    appId: '1:345636954617:ios:dcb3c3c26a7f9a29de1d28',
+    messagingSenderId: '345636954617',
+    projectId: 'responsive-and-adaptive',
+    storageBucket: 'responsive-and-adaptive.firebasestorage.app',
     iosBundleId: 'com.example.responsiveAndAdaptiveDashboard',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyAp7xePfeZBzvzvOhsMTtjRsdsL45lJOcA',
-    appId: '1:435235654318:web:5b56b50cc419a618eefb3f',
-    messagingSenderId: '435235654318',
-    projectId: 'new-app-note',
-    authDomain: 'new-app-note.firebaseapp.com',
-    storageBucket: 'new-app-note.appspot.com',
+    apiKey: 'AIzaSyBvAOBqIYdq2lW9fNvaqKTxn3JJ1cSEc6E',
+    appId: '1:345636954617:web:ddd25281e6c49487de1d28',
+    messagingSenderId: '345636954617',
+    projectId: 'responsive-and-adaptive',
+    authDomain: 'responsive-and-adaptive.firebaseapp.com',
+    storageBucket: 'responsive-and-adaptive.firebasestorage.app',
   );
 
 }

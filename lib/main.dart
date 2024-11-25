@@ -11,13 +11,13 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
-  // runApp(ResposiveAdptiveDashBoard());
-  runApp(
-    DevicePreview(
-      enabled: true,
-      builder: (context) => const ResposiveAdptiveDashBoard(), // Wrap your app
-    ),
-  );
+  runApp(ResposiveAdptiveDashBoard());
+  // runApp(
+  //   DevicePreview(
+  //     enabled: true,
+  //     builder: (context) => const ResposiveAdptiveDashBoard(), // Wrap your app
+  //   ),
+  // );
 }
 
 class ResposiveAdptiveDashBoard extends StatelessWidget {

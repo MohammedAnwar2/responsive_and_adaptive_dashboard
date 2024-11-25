@@ -3,20 +3,20 @@
     "platforms": {
       "android": {
         "default": {
-          "projectId": "new-app-note",
-          "appId": "1:435235654318:android:c256c121f0e1d32ceefb3f",
+          "projectId": "responsive-and-adaptive",
+          "appId": "1:345636954617:android:9a7cc376826fbd3bde1d28",
           "fileOutput": "android/app/google-services.json"
         }
       },
       "dart": {
         "lib/firebase_options.dart": {
-          "projectId": "new-app-note",
+          "projectId": "responsive-and-adaptive",
           "configurations": {
-            "android": "1:435235654318:android:c256c121f0e1d32ceefb3f",
-            "ios": "1:435235654318:ios:f397f7b9add05ba5eefb3f",
-            "macos": "1:435235654318:ios:f397f7b9add05ba5eefb3f",
-            "web": "1:435235654318:web:82764932b098a9e8eefb3f",
-            "windows": "1:435235654318:web:5b56b50cc419a618eefb3f"
+            "android": "1:345636954617:android:9a7cc376826fbd3bde1d28",
+            "ios": "1:345636954617:ios:dcb3c3c26a7f9a29de1d28",
+            "macos": "1:345636954617:ios:dcb3c3c26a7f9a29de1d28",
+            "web": "1:345636954617:web:7c46ac745211dbd9de1d28",
+            "windows": "1:345636954617:web:ddd25281e6c49487de1d28"
           }
         }
       }
