@@ -12,24 +12,20 @@ class IncomeSectionBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.sizeOf(context).width;
-    print(width.toString());
-    return width <= 1400 && width > SizeConfig.desktop || width > 1970
-        ? const Row(
-            children: [
-              Expanded(
-                  child: Padding(
-                padding: EdgeInsets.all(16),
-                child: IncomePieChartDeatails(),
-              )),
-            ],
-          )
-        : const Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Expanded(child: IncomePieChart()),
-              SizedBox(width: 10),
-              Expanded(flex: 2, child: IncomeDetails())
-            ],
-          );
+    if (width <= 1400 && width > SizeConfig.desktop) {
+      return const Padding(
+        padding: EdgeInsets.all(16),
+        child: IncomePieChartDeatails(),
+      );
+    } else {
+      return const Row(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Expanded(child: IncomePieChart()),
+          SizedBox(width: 10),
+          Expanded(flex: 2, child: IncomeDetails())
+        ],
+      );
+    }
   }
 }
