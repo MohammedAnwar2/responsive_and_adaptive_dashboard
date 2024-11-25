@@ -67,6 +67,7 @@ class LatestTransactionListView extends StatelessWidget {
             .map((e) => GestureDetector(
                 behavior:
                     HitTestBehavior.translucent, // Pass gestures to children
+
                 onHorizontalDragUpdate: (details) {
                   controller.jumpTo(
                     controller.offset - details.delta.dx,

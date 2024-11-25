@@ -33,27 +33,46 @@ class _AllExpensesItemsListViewState extends State<AllExpensesItemsListView> {
   Widget build(BuildContext context) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.start,
-      children: items.asMap().entries.map(
-        (e) {
-          return Expanded(
+      children: [
+        for (int i = 0; i < items.length; i++) ...[
+          Expanded(
             child: GestureDetector(
               onTap: () {
-                if (isActive != e.key) {
+                if (isActive != i) {
                   setState(() {});
-                  isActive = e.key;
+                  isActive = i;
                 }
               },
-              child: Padding(
-                padding: e.key != items.length - 1
-                    ? const EdgeInsetsDirectional.only(end: 12)
-                    : EdgeInsets.zero,
-                child: AllExpensesItems(
-                    itemsModel: e.value, isActive: isActive == e.key),
+              child: AllExpensesItems(
+                itemsModel: items[i],
+                isActive: isActive == i,
               ),
             ),
-          );
-        },
-      ).toList(),
+          ),
+          // Add SizedBox between items except the last one
+          if (i < items.length - 1) const SizedBox(width: 8),
+        ],
+      ],
     );
+
+    // return Row(
+    //   mainAxisAlignment: MainAxisAlignment.start,
+    //   children: items.asMap().entries.map(
+    //     (e) {
+    //       return Expanded(
+    //         child: GestureDetector(
+    //           onTap: () {
+    //             if (isActive != e.key) {
+    //               setState(() {});
+    //               isActive = e.key;
+    //             }
+    //           },
+    //           child: AllExpensesItems(
+    //               itemsModel: e.value, isActive: isActive == e.key),
+    //         ),
+    //       );
+    //     },
+    //   ).toList(),
+    // );
   }
 }

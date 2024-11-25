@@ -25,7 +25,7 @@ class MyCart extends StatelessWidget {
           children: [
             ListTile(
               contentPadding:
-                  const EdgeInsets.only(top: 20, left: 31, right: 42),
+                  const EdgeInsets.only(top: 0, left: 31, right: 42),
               title: Text(
                 'Name card',
                 style: AppStyles.styleRegular16(context)
@@ -55,7 +55,9 @@ class MyCart extends StatelessWidget {
                 ],
               ),
             ),
-            const SizedBox(height: 54 - 19 - 8),
+            // Expanded(flex: 10, child: SizedBox()),
+            const Flexible(child: SizedBox(height: 54 - 19 - 8)),
+            // const SizedBox(height: 54 - 19 - 8),
           ],
         ),
       ),
